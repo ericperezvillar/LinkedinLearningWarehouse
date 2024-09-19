@@ -1,20 +1,17 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Linkedin Learning Warehouse 
+LinkedIn API is a RESTful web service that allows developers to access LinkedIn’s professional network data, such as user profiles, connections, and content. This API is commonly used for integrating LinkedIn functionality into external applications, enabling features like social sharing, user authentication, and access to LinkedIn learning progress and assets. 
+This a **.NET 8 console application** that consumes the LinkedIn API to track employee training progress. This application handles LinkedIn API queries and processes responses. The program was built to collect training data (Learning Activity Reports and Learning Assets Reports) from employees and store it in a newly created database.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Key Technologies
+.NET 8, LinkedIn API, SQL Server 2019, JSON Deserialization, Git.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Getting Started
+* Run CREATE_tables from **db** folder
+* Run POPULATE_Ref_Tables from **db** folder
+* Update the following settings in the *appsetting.json*. 
+![image](https://github.com/user-attachments/assets/5fd4c046-561d-4081-b681-b63c88c85812)
+* Run the application
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## License
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+**Eric Perez Villar**
